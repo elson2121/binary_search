@@ -1,0 +1,55 @@
+
+---
+
+### **2️⃣ `REPORT.md` (For Theory & Analysis)**  
+```markdown
+# **Iterative vs. Recursive Approach in Algorithms**
+
+## **Submitted by**  
+**Name:** Samuel Diriba  
+**Group:** 2  
+**ID:** RNS-9464/23  
+
+---
+
+## **1. Iterative vs. Recursive Approach in Algorithms**  
+
+### **Iterative Approach**  
+- Uses **loops** (e.g., `for`, `while`) to repeat operations.  
+- **Memory-efficient** since it does not use extra function calls.  
+- Often faster in terms of execution time.  
+- Example: **Binary Search using a loop**.
+
+### **Recursive Approach**  
+- Solves problems by calling the function **within itself**.  
+- Uses **stack memory** for each function call, leading to **higher space complexity**.  
+- Simpler and more intuitive for divide-and-conquer problems.  
+- Example: **Binary Search using recursion**.
+
+---
+
+## **2. Binary Search: Implementation & Complexity**  
+
+### **Iterative Binary Search**  
+- Uses a loop to repeatedly divide the search space.  
+- **Time Complexity:** **O(log n)** (since the array is divided in half each time).  
+- **Space Complexity:** **O(1)** (only a few extra variables are used).  
+
+### **Recursive Binary Search**  
+- Calls itself recursively until the base condition is met.  
+- **Time Complexity:** **O(log n)** (same as iterative).  
+- **Space Complexity:** **O(log n)** (due to recursive function calls).  
+
+| **Approach** | **Time Complexity** | **Space Complexity** | **Efficiency** |
+|-------------|------------------|------------------|------------|
+| **Iterative** | O(log n) | O(1) | Faster, memory efficient |
+| **Recursive** | O(log n) | O(log n) | Uses extra stack space |
+
+---
+
+## **3. Summary of Findings**  
+✔ **Iterative Binary Search** is **more efficient** in terms of space and execution speed.  
+✔ **Recursive Binary Search** is **easier to understand** but **uses extra memory** due to function calls.  
+✔ For large datasets, **iterative approach** is preferred to avoid stack overflow.  
+
+ **Use iterative Binary Search when memory efficiency is critical, but recursion can be useful for simplicity in some cases.** 🚀  
